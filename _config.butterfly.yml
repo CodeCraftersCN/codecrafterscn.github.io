@@ -577,7 +577,7 @@ aside:
       text: Follow Me
       link: https://github.com/zihluwang
   card_announcement:
-    enable: true
+    enable: false
     content: <a href="https://t.me/+4o6OAPrTrJ1lZjYx">点击链接加入 Telegram 群组</a>
   card_recent_post:
     enable: true
