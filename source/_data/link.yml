@@ -1,0 +1,11 @@
+- class_name: 团队成员
+  class_desc:
+  link_list:
+    - name: 熊子路
+      link: https://github.com/JerryM0623
+      avatar: https://avatars.githubusercontent.com/u/43034558?v=4
+      descr: 前端开发
+    - name: 王子路
+      link: https://github.com/zihluwang
+      avatar: https://codecrafters-1256113725.cos.ap-hongkong.myqcloud.com/user-profile/zihluwang/avatar.png
+      descr: 后端开发

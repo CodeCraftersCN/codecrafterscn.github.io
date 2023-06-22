@@ -4,11 +4,13 @@
 
 menu:
   主页: / || fas fa-home
-  归档: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
   #  List||fas fa-list:
   #    Music: /music/ || fas fa-music
   #    Movie: /movies/ || fas fa-video
+  项目 || fas fa-list:
+    Vocab Buddy: /5bcd5085/vocab-buddy/
+  标签: /tags/ || fas fa-tags
+  友情链接: /link/ || fas fa-link
   GitHub: https://github.com/codecrafterscn || iconfont icon-github
   关于: /about/ || fas fa-info
   加入我们: /join-us/ || fas fa-user-plus
@@ -21,7 +23,7 @@ nav:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -574,7 +576,7 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 在 GitHub 上关注我
       link: https://github.com/zihluwang
   card_announcement:
     enable: false
