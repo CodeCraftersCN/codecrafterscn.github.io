@@ -3,9 +3,25 @@
   link_list:
     - name: 熊子路
       link: https://github.com/JerryM0623
-      avatar: https://avatars.githubusercontent.com/u/43034558?v=4
+      avatar: https://codecrafters-1256113725.cos.ap-hongkong.myqcloud.com/user-profile/jerrym0623/avatar.jpg
       descr: 前端开发
     - name: 王子路
-      link: https://github.com/zihluwang
+      link: https://github.com/vorbote
       avatar: https://codecrafters-1256113725.cos.ap-hongkong.myqcloud.com/user-profile/zihluwang/avatar.png
       descr: 后端开发
+    - name: Lagom
+      link: https://github.com/lagom888
+      avatar: https://codecrafters-1256113725.cos.ap-hongkong.myqcloud.com/user-profile/lagom888/2VZM7I.JPG
+      descr: 后端开发
+
+- class_name: 开发平台
+  class_desc:
+  link_list:
+    - name: GitHub
+      link: https://github.com
+      avatar: https://codecrafters-1256113725.cos.ap-hongkong.myqcloud.com/user-profile/zihluwang/WKan5v.png
+      descr: GitHub，全球最大的程序员论坛
+    - name: Coding
+      link: https://coding.net
+      avatar:
+      descr: 非常好用的多人代码协作平台
