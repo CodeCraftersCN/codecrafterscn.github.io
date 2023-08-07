@@ -7,6 +7,16 @@ menu:
   #  List||fas fa-list:
   #    Music: /music/ || fas fa-music
   #    Movie: /movies/ || fas fa-video
+  DevKit || fas fa-code:
+    DevKit Home: /devkit
+    DevKit-Core: /devkit/devkit-core
+    DevKit-Utils: /devkit/devkit-utils
+    GUID: /devkit/guid
+    WebCal: /devkit/webcal
+    SimpleJWT Facade: /devkit/simple-jwt-facade
+    SimpleJWT Auth0: /devkit/simple-jwt-authzero
+    SimpleJWT JJWT: /devkit/simple-jwt-jjwt
+    SimpleJWT Spring Boot Starter: /devkit/simple-jwt-spring-boot-starter
   项目 || fas fa-list:
     Vocab Buddy: /5bcd5085/vocab-buddy/
   标签: /tags/ || fas fa-tags
@@ -35,7 +45,7 @@ code_word_wrap: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # social settings (社交圖標設置)
