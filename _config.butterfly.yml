@@ -9,6 +9,7 @@ menu:
   #    Movie: /movies/ || fas fa-video
   DevKit || fas fa-code:
     DevKit Home: /devkit
+    DevKit Changelog: /devkit/changelog
     DevKit-Core: /devkit/devkit-core
     DevKit-Utils: /devkit/devkit-utils
     GUID: /devkit/guid
