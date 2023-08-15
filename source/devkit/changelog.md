@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.0-RC](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.0.0-RC) - 15 Aug 2023
+
+Nothing is changed in this update.
+
 ## [1.0.0-beta](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.0.0-beta) - 12 Aug 2023
 
 ### Changes
