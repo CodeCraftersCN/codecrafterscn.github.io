@@ -7,27 +7,6 @@ date: 2023-08-07 16:24:52
 
 JDevKit is a Java Development Kit that offers a set of convenient tools for writing code efficiently.
 
-> #### Special Announcement (28 Aug 2023):
-> Due to unknown reasons, I can't publish this package to maven central repository. Please use github repository instead temporary.
-> 
-> If you are using Gradle, please add these codes to your gradle configuration file.
-> ```groovy
-> repositories {
->   maven {url 'https://maven.pkg.github.com/codecrafterscn/jdevkit'}
-> }
-> ```
->
-> If you are using `Maven`, please add these codes to your maven configuration file.
-> ```xml
-> <repositories>
->   <repository>
->       <id>codecrafterscn-github-repository</id>
->       <name>CodeCraftersCN Github Package Repository</name>
->       <url>https://maven.pkg.github.com/codecrafterscn/jdevkit</url>
->   </repository>
-> </repositories>
-> ```
-
 ## Modules
 
 > For more information, please visit the README file of each module.
