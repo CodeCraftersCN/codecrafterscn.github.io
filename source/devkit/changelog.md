@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.0]
+## [1.1.0](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.1.0) - **19 Sept, 2023**
 
 ## Features
 
