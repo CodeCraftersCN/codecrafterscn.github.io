@@ -588,7 +588,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: 在 GitHub 上关注我
-      link: https://github.com/zihluwang
+      link: https://github.com/codecrafterscn
   card_announcement:
     enable: false
     content: <a href="https://t.me/+4o6OAPrTrJ1lZjYx">点击链接加入 Telegram 群组</a>
