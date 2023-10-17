@@ -2,7 +2,7 @@
 
 ## [1.1.2](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.1.2) - 17 Oct, 2023
 
-## Fixes
+### Fixes
 
 - Fixed the issue where `JjwtTokenResolver` instances could not be created with a 32-character-long secret.
 
