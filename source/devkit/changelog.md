@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.2.0](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.2.0) - 18 Oct, 2023
+
+### Feature
+
+- The enum fields declared in token payload class now can be handled as basic data types.
+
 ## [1.1.2](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.1.2) - 17 Oct, 2023
 
 ### Fixes
