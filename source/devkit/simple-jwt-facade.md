@@ -120,6 +120,55 @@ This method allows you to pass new custom payload into the updated token. The ne
 
 This method allows you to pass new custom payload into the updated token. The new token will be available for the specific duration.
 
+## Handle Enum Value in Base Types
+
+JWT does not natively support processing of enumerated values, so it is necessary to convert this enumerated value data to a base data type for processing. This is done by marking the data enum field with the `@TokenEnum` annotation and configuring the properties `propertyName` and `dataType`. The attribute `propertyName` indicates that the enumeration field is a field of the base data type, and the attribute `dataType` indicates what base data type is required to represent the enumeration field, such as the following enumeration value:
+```java
+public enum SampleEnum {
+    SAMPLE_ENUM_1(1),
+    SAMPLE_ENUM_2(2),
+    ;
+    
+    private final Integer code;
+    
+    public Integer getCode() {
+        return code;
+    }
+    
+    SampleEnum(Integer code) {
+        this.code = code;
+    }
+}
+```
+
+For example there is now the following `Payload Class`:
+
+```java
+public class SampleModel implements TokenPayload {
+    private String sampleStringValue;
+    private Integer sampleIntegerValue;
+    private SampleEnum sampleEnumValue;
+    
+    // getters and setters...
+}
+```
+
+If your class needs to handle the above enumerated values as integer data, then `propertyName` should be `code` and `dataType` should be `cn.org.codecrafters.simplejwt.constants.TokenDataType.INTEGER`.
+
+For the output of enumerated values, you only need to implement the corresponding `getter` based on the `propertyName`; if you need to convert to the corresponding enumerated value based on the base type, you need to implement a static `loader` method, which should have a signature of:
+
+```java
+public static <EnumValueClass> loadBy<PropertyName>(<DataTypeClass> value);
+```
+
+The `EnumValueClass` is the class name of the enumerated value in the class; the `PropertyName` is the big camel's representation of the `propertyName` in the `@TokenEnum` annotation; and the `DataTypeClass` is the base type of the enumerated value which is stored as the `dataType` in the `@TokenEnum` annotation. Take the above `Payload Class` as an example, the corresponding `loader` code is as follows:
+
+```java
+public static SampleEnum loadByCode(Integer value) {
+    // return the mapped enum value by integer value.
+}
+```
+
 ## Contact
 
 If you have any suggestions, ideas, don't hesitate contacting us via [GitHub Issues](https://github.com/CodeCraftersCN/jdevkit/issues/new) or [Discord Community](https://discord.gg/NQK9tjcBB8). 
