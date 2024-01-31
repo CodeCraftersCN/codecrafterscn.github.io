@@ -1,6 +1,18 @@
 # Changelog
 
-## [1.2.0](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.2.0) - 18 Oct, 2023
+## [1.3.0](https://github.com/CodeCraftersCN/jdevkit/releases/tag/1.3.0) - 31 Jan, 2024
+
+- Changed build toolchain from `Maven` to `Gradle`.
+    > **Note**: Artifact `cn.org.codecrafters:jdevkit` might be imported if you are still using version &lt; 1.3.0 meanwhile 
+this artifact is removed since 1.3.0.
+
+## [1.2.2](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.2.2) - 25 Jan, 2024
+
+### Fixes
+
+- Fixed the issue that error reports `illegal base64 character` when resolving a JWT or extracting information from a JWT.
+
+## [1.2.0](https://github.com/CodeCraftersCN/jdevkit/releases/tag/v1.2.0) - 18 Oct, 2023 [YANKED]
 
 ### Feature
 
